@@ -12,4 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+
+@property(nonatomic, strong) UINavigationController *navController;
+/*
+- (void)presentLoginViewControllerAnimated:(BOOL)animated;
+- (void)logOut;
+*/
 @end
